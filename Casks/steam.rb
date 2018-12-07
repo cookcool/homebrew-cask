@@ -4,6 +4,8 @@ cask 'steam' do
 
   # steamcdn-a.akamaihd.net was verified as official when first introduced to the cask
   url 'https://steamcdn-a.akamaihd.net/client/installer/steam.dmg'
+  # get the url from the App downloaded from the official website
+  url 'https://media.st.dl.bscstorage.net/client/installer/steam.dmg'
   name 'Steam'
   homepage 'https://store.steampowered.com/about/'
 
